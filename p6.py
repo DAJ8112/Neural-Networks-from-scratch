@@ -1,3 +1,5 @@
+# ReLU Activation function code added here
+
 import numpy as np
 import nnfs
 from nnfs.datasets import spiral_data
@@ -49,3 +51,4 @@ layer1.forward(X)
 # print(layer1.output)
 activation1.forward(layer1.output)
 print(activation1.output)
+
